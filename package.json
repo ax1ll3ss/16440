@@ -1,0 +1,28 @@
+{
+  "name": "16440",
+  "version": "1.0.0",
+  "description": "this is an oridnary app written in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ax1ll3ss/16440.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ax1ll3ss/16440/issues"
+  },
+  "homepage": "https://github.com/ax1ll3ss/16440#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2"
+  }
+}
