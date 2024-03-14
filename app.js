@@ -23,4 +23,4 @@ app.use('/js', express.static('public/js'))
 app.use('/', web_route); // web routes
 
 const port = 3000;
-app.listen(port, () => console.log('Server running on port ${port}'));
+app.listen(port, () => console.log(`Server running on port ${port}`));
